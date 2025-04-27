@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGenCoders.us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header>
+        <h1>NextGenCoders 🚀</h1>
+        <p>Empowering the Future, One Line of Code at a Time!</p>
+    </header>
+
+    <section class="age-group">
+        <h2>🎈 Ages 4–6: Scratch 3.0 Playground</h2>
+        <p>Start your coding journey with fun drag-and-drop blocks!</p>
+        <a href="scratch.html" class="button">Start with Scratch</a>
+    </section>
+
+    <section class="age-group">
+        <h2>🐍 Ages 7–10: Python Explorers</h2>
+        <p>Learn real programming skills with Python basics!</p>
+        <a href="python.html" class="button">Start with Python</a>
+    </section>
+
+    <section class="age-group">
+        <h2>⚡ Ages 11–13: JavaScript Creators</h2>
+        <p>Bring websites to life with JavaScript magic!</p>
+        <a href="javascript.html" class="button">Start with JavaScript</a>
+    </section>
+
+    <section class="age-group">
+        <h2>🧠 Ages 14–16: C++ Masters</h2>
+        <p>Master professional coding techniques with C++!</p>
+        <a href="cpp.html" class="button">Start with C++</a>
+    </section>
+
+    <footer>
+        <p>Made with ❤️ for Future Coders!</p>
+    </footer>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+            .then(reg => console.log('Service Worker registered'))
+            .catch(err => console.log('Service Worker error', err));
+        }
+    </script>
+</body>
+</html>
